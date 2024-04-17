@@ -288,7 +288,7 @@ public class Main {
                                 dialog.dispose();
                                 return;
                             } else {
-                                times++;
+                                times++;  //error
                                 int resttime = max_login - times;
                                 if (resttime > 0) {
                                     JOptionPane.showMessageDialog(dialog, "Invalid password. Attempts left: " + resttime);
